@@ -25,7 +25,7 @@ To read more about using these font, please visit the Next.js documentation:
 **/
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-
+import type { AppProps } from "next/app";
 export function Evals() {
   return (
     <div className="bg-background text-foreground">
@@ -255,7 +255,7 @@ export function Evals() {
   )
 }
 
-function MehIcon(props) {
+function MehIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -278,7 +278,7 @@ function MehIcon(props) {
 }
 
 
-function MenuIcon(props) {
+function MenuIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
