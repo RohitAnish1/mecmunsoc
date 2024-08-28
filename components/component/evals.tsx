@@ -61,7 +61,7 @@ export function Evals() {
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
               <div className="bg-card rounded-lg overflow-hidden shadow-lg">
                 <img
-                  src="/placeholder.svg"
+                  src="/mun1.jpg"
                   width="400"
                   height="200"
                   alt="News Thumbnail"
@@ -78,7 +78,7 @@ export function Evals() {
               </div>
               <div className="bg-card rounded-lg overflow-hidden shadow-lg">
                 <img
-                  src="/placeholder.svg"
+                  src="/mun2.jpg"
                   width="400"
                   height="200"
                   alt="News Thumbnail"
@@ -95,7 +95,7 @@ export function Evals() {
               </div>
               <div className="bg-card rounded-lg overflow-hidden shadow-lg">
                 <img
-                  src="/placeholder.svg"
+                  src="/mun3.jpg"
                   width="400"
                   height="200"
                   alt="News Thumbnail"

@@ -15,13 +15,13 @@ const config: Config = {
       },
     },
       colors: {
-            "border": "hsl(var(--border))",
+            "border": "#e5e7eb",
             "input": "hsl(var(--input))",
             "ring": "hsl(var(--ring))",
             "background": "hsl(var(--background))",
-            "foreground": "hsl(var(--foreground))",
+            "foreground": "#ffffea",
             "primary": {
-              "DEFAULT": "hsl(var(--primary))",
+              "DEFAULT": "#ff4035",
               "foreground": "hsl(var(--primary-foreground))"
             },
             "secondary": {
@@ -34,7 +34,7 @@ const config: Config = {
             },
             "muted": {
               "DEFAULT": "hsl(var(--muted))",
-              "foreground": "hsl(var(--muted-foreground))"
+              "foreground": "#160000"
             },
             "accent": {
               "DEFAULT": "hsl(var(--accent))",
@@ -45,7 +45,7 @@ const config: Config = {
               "foreground": "hsl(var(--popover-foreground))"
             },
             "card": {
-              "DEFAULT": "hsl(var(--card))",
+              "DEFAULT": "#ff4035",
               "foreground": "hsl(var(--card-foreground))"
             }
           },
