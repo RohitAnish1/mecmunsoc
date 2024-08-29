@@ -21,11 +21,11 @@ const config: Config = {
             "background": "hsl(var(--background))",
             "foreground": "#ffffea",
             "primary": {
-              "DEFAULT": "#ff4035",
+              "DEFAULT": "#9B2226",
               "foreground": "hsl(var(--primary-foreground))"
             },
             "secondary": {
-              "DEFAULT": "hsl(var(--secondary))",
+              "DEFAULT": "#FAA307",
               "foreground": "hsl(var(--secondary-foreground))"
             },
             "destructive": {
@@ -45,7 +45,7 @@ const config: Config = {
               "foreground": "hsl(var(--popover-foreground))"
             },
             "card": {
-              "DEFAULT": "#ff4035",
+              "DEFAULT": "#9B2226",
               "foreground": "hsl(var(--card-foreground))"
             }
           },
